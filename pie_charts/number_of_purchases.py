@@ -1,7 +1,8 @@
+from base_page import BasePage
 from locators import NumberOfPurchasesLocators
 from clients import Clients
 
-class NumberOfPurchases(Clients):
+class NumberOfPurchases(BasePage):
     def title_number_of_purchases_presented(self):
         assert self.is_element_present(*NumberOfPurchasesLocators.TITLE_NUMBER_OF_PURCHASES), "Title number of purchases presented"
 

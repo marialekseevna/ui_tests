@@ -1,3 +1,4 @@
+from base_page import BasePage
 from clients import Clients
 from auth import Auth
 from pie_charts.clients_ages import ClientsAges
